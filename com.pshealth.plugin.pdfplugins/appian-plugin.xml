@@ -1,0 +1,20 @@
+<appian-plugin name="PDF Plugins" key="com.pshealth.plugin.pdfplugins">
+
+  <plugin-info>
+    <description>PDF Plugins</description>
+    <vendor name="Appian Corporation" url="http://www.appian.com" />
+    <version>1.0.0</version>
+    <application-version min="6.1.0" />
+  </plugin-info>
+
+
+ <smart-service name="Docx to PDF Conversion" key="DocxtoPDFConversion"
+    class="com.pshealth.plugin.pdfplugins.DocxToPdfConversion" />
+
+  <smart-service name="Merge PDF" key="MergePdfDocument"
+    class="com.pshealth.plugin.mergepdf.MergePdfDocuments" />
+
+
+  <smart-service name="Apply Pdf Background" key="ApplyBackgroundPdf"
+    class="com.pshealth.plugin.pdfbackground.ApplyBackgroundPdf" />
+</appian-plugin>
